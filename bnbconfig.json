@@ -1,0 +1,27 @@
+{
+  "project": "DexTrading",
+  "website": "https://dextrading.com",
+  "primaryNetwork": "bsc",
+  "networks": {
+    "bsc": {
+      "name": "BNB Smart Chain",
+      "chainId": 56,
+      "nativeCurrency": { "name": "BNB", "symbol": "BNB", "decimals": 18 },
+      "rpcUrl": "https://bsc-dataseed.bnbchain.org",
+      "explorerUrl": "https://bscscan.com",
+      "dextradingChain": "bsc",
+      "pages": {
+        "copyTrading": "https://dextrading.com/copy-trade",
+        "smartMoney": "https://dextrading.com/narratives/bsc",
+        "tokenPage": "https://dextrading.com/tokens/bsc/{tokenAddress}",
+        "walletPage": "https://dextrading.com/wallet/{walletAddress}/bsc"
+      }
+    }
+  },
+  "dextrading": {
+    "mcpUrl": "https://dextrading.com/api/mcp",
+    "mcpSetup": "https://dextrading.com/mcp",
+    "copyTradingChains": ["solana", "bsc", "base", "robinhood"],
+    "rankingChains": ["solana", "eth", "bsc", "base", "arbitrum", "optimism", "robinhood"]
+  }
+}
