@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dextrading": {
+      "type": "http",
+      "url": "https://dextrading.com/api/mcp"
+    }
+  }
+}
